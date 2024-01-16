@@ -1,4 +1,3 @@
-import os, platform
 import utanfuto
 
 class Utanfuto:
@@ -20,9 +19,9 @@ utanfuto1 = Utanfuto(tipus="ponyvás",ar=1500,teherbiras=150,rendszam="AQC-121")
 utanfuto2 = Utanfuto(tipus="fékezett",ar=1500,teherbiras=150,rendszam="ABC-131")
 utanfuto3 = Utanfuto(tipus="ponyvás@fékezett",ar=1500,teherbiras=150,rendszam="KBC-541")
 
-Print("lehetőségek:")
+print("lehetőségek:")
 inputresult = int(input("1- kölcsönzés, 2 - lemondás 3- listázás: "))
-    if not (isinstance(inputresult, int)):
+if not (isinstance(inputresult, int)):
         raise TypeError("Nem egész számod adtál meg.")
 
 
@@ -36,7 +35,7 @@ inputresult = int(input("1- kölcsönzés, 2 - lemondás 3- listázás: "))
     #kölcsönöz
 
 
-# if inputresult == 3:
+if inputresult == 3:
     print(utanfuto1.rendszam)
     print("teherbírás ", utanfuto1.teherbiras)
     print("típus", utanfuto1.tipus)
