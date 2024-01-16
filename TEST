@@ -29,7 +29,7 @@ a) Class.attribute
 b) Class->attribute
 c) Class::attribute
 d) instance.attribute
-Válasz:
+Válasz:a
 
 5. Mi a különbség az attribútum és a metódus között egy osztályban?
 a) Az attribútumok értékeket tárolnak, a metódusok pedig műveleteket végeznek
@@ -57,7 +57,7 @@ a) class Child(Parent):
 b) super
 c) inherits
 d) extends
-Válasz: c
+Válasz:
 
 9. Mi a "class" kulcsszó szerepe Pythonban?
 a) Osztály létrehozása
@@ -85,7 +85,7 @@ a) Az osztályok egyszerűbbé válnak
 b) Kód újrafelhasználhatósága és kódmegosztás
 c) Biztonsági okokból
 d) Adatbázis optimalizálás
-Válasz:
+Válasz:b
 
 13. Mi történik Pythonban, ha egy osztályban nem definiáljuk a init metódust?
 a) A program hibát generál
@@ -120,7 +120,7 @@ a) Absztrakt osztályokat lehet példányosítani
 b) Absztrakt osztályokban minden metódusnak absztraktnak kell lennie
 c) Absztrakt osztályokat nem lehet örökíteni
 d) Absztrakt osztályok absztrakt metódusokat tartalmaznak, amelyeket a leszármazottaknak kell implementálniuk
-Válasz:
+Válasz:a
 
 18. Mi az OOP célja az alábbiakból?
 a) Adatbázis kezelés
@@ -134,7 +134,7 @@ a) Objektumok gyorsabb létrehozása
 b) Két inkompatibilis interfész összekapcsolása
 c) Kód ismétlésének csökkentése
 d) Programozási hibák automatikus javítása
-Válasz:
+Válasz:b
 
 20. Mi a különbség az attribútum és a metódus között egy osztályban?
 a) Az attribútumok értékeket tárolnak, a metódusok pedig műveleteket végeznek
