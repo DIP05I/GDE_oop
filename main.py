@@ -1,3 +1,4 @@
+import datetime
 import utanfuto
 
 class Utanfuto:
@@ -27,7 +28,10 @@ if not (isinstance(inputresult, int)):
 
 
 
-# if inputresult == 2:
+if inputresult == 2:
+    print("Mikori foglalást szeretné lemondani? ")
+    lemodasdatum = datetime.date.fromisoformat(input("formátum 2024-01-16"))
+
 
 
 
