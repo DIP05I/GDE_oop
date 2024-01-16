@@ -5,6 +5,12 @@ class Utanfuto:
         self.teherbiras = teherbiras
         self.rendszam = rendszam
 
+class Redneles:
+    def __init__(self,mettol,meddig,rendszam):
+        self.mettol = mettol
+        self.meddig = meddig
+        self.rendszam = rendszam
+
 
 
 
