@@ -15,10 +15,14 @@ class Kolcsonzes:
         self.meddig = meddig
         self.rendszam = rendszam
 
+# értékadások
 
 utanfuto1 = Utanfuto(tipus="ponyvás",ar=1500,teherbiras=150,rendszam="AQC-121")
 utanfuto2 = Utanfuto(tipus="fékezett",ar=1500,teherbiras=150,rendszam="ABC-131")
 utanfuto3 = Utanfuto(tipus="ponyvás@fékezett",ar=1500,teherbiras=150,rendszam="KBC-541")
+
+kolcsonzes1 = Kolcsonzes(mettol="2024-02-22",meddig="2024-02-26",rendszam="AQC-121")
+kolcsonzes1 = Kolcsonzes(mettol="2024-03-12",meddig="2024-04-26",rendszam="ABC-541")
 
 print("lehetőségek:")
 inputresult = int(input("1- kölcsönzés, 2 - lemondás 3- listázás: "))
@@ -35,8 +39,14 @@ if inputresult == 2:
 
 
 
-# if inputresult == 1:
-    #kölcsönöz
+if inputresult == 1:
+    print("Mikori szeretne foglalni? ")
+    mettol = datetime.date.fromisoformat(input("formátum 2024-01-16 "))
+    print("Meddig? ")
+    meddig = datetime.date.fromisoformat(input("formátum 2024-01-16 "))
+    print("Melyik rendszámú autót? ")
+    auto = str(input("formátum AAA-123"))
+
 
 
 if inputresult == 3:
