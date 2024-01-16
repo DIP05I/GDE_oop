@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0c1aa94-40a5-4c22-82fd-d22059df9612" name="Changes" comment="Elso">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST" beforeDir="false" afterPath="$PROJECT_DIR$/TEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolcsonoz.py" beforeDir="false" afterPath="$PROJECT_DIR$/kolcsonoz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listaz.py" beforeDir="false" afterPath="$PROJECT_DIR$/listaz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utanfuto.py" beforeDir="false" afterPath="$PROJECT_DIR$/utanfuto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.listaz.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.utanfuto.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -75,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705420169748</updated>
-      <workItem from="1705420184109" duration="3154000" />
+      <workItem from="1705420184109" duration="7097000" />
     </task>
     <task id="LOCAL-00001" summary="Elso">
       <option name="closed" value="true" />
@@ -133,7 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705422764269</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Elso">
+      <option name="closed" value="true" />
+      <created>1705423636170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705423636170</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Elso">
+      <option name="closed" value="true" />
+      <created>1705423876949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705423876949</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Elso">
+      <option name="closed" value="true" />
+      <created>1705424349978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705424349978</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,5 +171,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Elso" />
     <option name="LAST_COMMIT_MESSAGE" value="Elso" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject2$listaz.coverage" NAME="listaz Coverage Results" MODIFIED="1705426216293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject2$utanfuto.coverage" NAME="utanfuto Coverage Results" MODIFIED="1705426935707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject2$main.coverage" NAME="main Coverage Results" MODIFIED="1705427093251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
