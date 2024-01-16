@@ -2,9 +2,9 @@ import utanfuto
 
 
 
-print("1. kölcsönzés")
-print("2. lemondás")
-print("3. listázás")
+
+
+inputresult = int(input("1- kölcsönzés, 2 - lemondás 3- listázás: "))
 
 
 
